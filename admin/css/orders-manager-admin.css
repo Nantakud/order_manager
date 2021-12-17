@@ -1,0 +1,66 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+h1 {
+  text-align: center;
+  margin: 25px 0px 2px 0px;
+}
+
+h3 {
+  margin: 5px;
+}
+
+.cnc-table {
+  margin: 0px 0px 0px 5px;
+  table-layout: fixed;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a81614;
+  border-collapse: collapse;
+}
+
+.cnc-table tr {
+  border: 1px solid black;
+}
+
+.cnc-table th {
+  color: white;
+  background-color: #a81614;
+}
+
+.cnc-table td {
+  padding: 20px 4px 20px 4px;
+  width: 15%;
+}
+
+.cnc-action {
+  text-align: center;
+}
+
+.cooking {
+  background-color: #f2eeb3;
+}
+
+.ready-to-pickup {
+  background-color: #d4f3b4;
+}
+
+.arrived {
+  background-color: #edd5d2;
+}
+
+.processing {
+  background-color: #c9d7e8;
+}
+
+.on-hold {
+  background-color: #f5c999;
+}
+
+.cnc-note {
+  background-color: #fff;
+  color: red;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
